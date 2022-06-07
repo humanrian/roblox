@@ -4,7 +4,7 @@ print('loaded best blue dot lock')
 local configs = {
     main = {
         enabled = true,
-        aimlockkey = "c",
+        aimlockkey = "q",
         prediction = 0.1226781,
         aimpart = 'HumanoidRootPart', -- Head, UpperTorso, HumanoidRootPart, LowerTorso
         notifications = true
