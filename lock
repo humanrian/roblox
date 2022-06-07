@@ -1,4 +1,4 @@
-print('hi')
+print('loaded some kind of lock that no one will know where it is from')
 
 local Settings = {
     rewrittenmain = {
