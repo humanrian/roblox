@@ -1,0 +1,4 @@
+print('start loading')
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/crash'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/lock'))()
+print('loading done')
