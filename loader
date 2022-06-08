@@ -1,3 +1,12 @@
 local plr = game.Players.LocalPlayer
-
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "version ??"
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "loading"
+})
+wait(2)
 plr:Kick('You got banned')
