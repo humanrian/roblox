@@ -9,4 +9,4 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "loading"
 })
 wait(2)
-plr:Kick('You got banned')
+plr:Kick('user BANNED')
