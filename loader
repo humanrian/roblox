@@ -1,7 +1,7 @@
 print('start loading')
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
-    Text = "loading;"
+    Text = "loading"
 })
 wait(1)
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/crash'))()
@@ -10,6 +10,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
-    Text = "loaded;"
+    Text = "loaded"
 })
 print('loading done')
