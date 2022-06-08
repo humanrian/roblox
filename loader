@@ -1,15 +1,54 @@
 print('start loading')
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
-    Text = "loading"
+    Text = "I DO NOT TAKE CREDITS FOR ANY OF THE FOLLOWING SCRIPT USED"
 })
-wait(1)
---loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/crash'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/lock'))()
---loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/moneydrop'),true)()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
+wait(7)
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
-    Text = "loaded"
+    Text = "start loading"
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "starting",
+    Text = "loading best blue dot lock"
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/lock'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "complete",
+    Text = "loading best blue dot lock"
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "starting",
+    Text = "loading fakemacro(unknown source)"
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "complete",
+    Text = "loading fkae macro(unknown source)"
+})
+wait (5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "loading",
+    Text = "loading"
+})
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "starting",
+    Text = "loading esp by Kiriot"
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/esp'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "complete",
+    Text = "loading esp by Kiriot"
+})
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "done loading"
+})
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
+    Text = "enjoy!!"
 })
 print('loading done')
