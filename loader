@@ -1,6 +1,11 @@
 print('start loading')
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
+    Text = "version V2"
+})
+wait(3)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "exploit",
     Text = "I DO NOT TAKE CREDITS FOR ANY OF THE FOLLOWING SCRIPT USED"
 })
 wait(7)
@@ -8,7 +13,7 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "start loading"
 })
-wait(1)
+wait(2)
 game.StarterGui:SetCore("SendNotification", {
     Title = "starting",
     Text = "loading best blue dot lock"
@@ -18,7 +23,7 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
     Text = "loading best blue dot lock"
 })
-wait(1)
+wait(2)
 game.StarterGui:SetCore("SendNotification", {
     Title = "starting",
     Text = "loading fakemacro(unknown source)"
@@ -47,6 +52,7 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "done loading"
 })
+wait(6)
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "enjoy!!"
