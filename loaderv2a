@@ -1,4 +1,5 @@
 print('start loading')
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "version V2"
@@ -9,11 +10,14 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "I DO NOT TAKE CREDITS FOR ANY OF THE FOLLOWING SCRIPT USED"
 })
 wait(7)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "start loading"
 })
+
 wait(2)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "starting",
     Text = "loading best blue dot lock"
@@ -23,11 +27,14 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
     Text = "loading best blue dot lock"
 })
+
 wait(2)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "starting",
     Text = "loading fakemacro(unknown source)"
 })
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
 game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
@@ -38,7 +45,9 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "loading",
     Text = "loading"
 })
+
 wait(5)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "starting",
     Text = "loading esp by Kiriot"
@@ -48,6 +57,22 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
     Text = "loading esp by Kiriot"
 })
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "loading",
+    Text = "loading"
+})
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "starting",
+    Text = "loading chatspy by spaceYes"
+})
+loadsting(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/chatspy'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "complete",
+    Text = "loading chatspy by spaceYes"
+})
+wait(2)
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "done loading"
