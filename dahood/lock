@@ -18,7 +18,7 @@ local boxsettings = {
         Showbox = true,
 
         boxsize = Vector3.new(3.3, 3, 2.8), -- Box Size
-        markercolor = Color3.fromRGB(1, 120, 145), -- Marrker Color
+        markercolor = Color3.fromRGB(255, 0, 0), -- Marrker Color
         markersize = UDim2.new(1, 0, 3, 0) -- Marker Size
     }
 }
@@ -98,7 +98,7 @@ spawn(function()
     box.CanCollide = false
     box.Size = boxsettings.box.boxsize
     if boxsettings.box.Showbox == true then
-        box.Transparency = 0.70
+        box.Transparency = 5
     else
         box.Transparency = 1
     end
