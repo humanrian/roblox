@@ -59,21 +59,6 @@ game.StarterGui:SetCore("SendNotification", {
 })
 wait(2)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "loading",
-    Text = "loading"
-})
-wait(5)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "starting",
-    Text = "loading chatspy by unknown"
-})
-loadsting(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/chatspy'))()
-game.StarterGui:SetCore("SendNotification", {
-    Title = "complete",
-    Text = "loading chatspy by unknown"
-})
-wait(2)
-game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "done loading"
 })
