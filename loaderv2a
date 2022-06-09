@@ -2,7 +2,7 @@ print('start loading')
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
-    Text = "version V2"
+    Text = "version V2.1.1"
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
