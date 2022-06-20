@@ -1,5 +1,12 @@
 print('start loading')
 
+game.Players.LocalPlayer:Connect(function(player)
+    print(
+	if player.UserId == 1699370513 then
+		player:Kick("you are  because i hate you")
+	end
+end)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "version V2.1.2"
