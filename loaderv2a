@@ -38,7 +38,7 @@ game.StarterGui:SetCore("SendNotification", {
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
 game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
-    Text = "loading fkae macro(unknown source)"
+    Text = "loading fake macro(unknown source)"
 })
 wait (5)
 game.StarterGui:SetCore("SendNotification", {
@@ -57,7 +57,17 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
     Text = "loading esp by Kiriot"
 })
-wait(2)
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+    Title="starting"
+    Text="fling by scuba#0001"
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fling'))()
+game.StarterGui:SetCore("SendNotification'' {
+    Title="complete",
+    Text="fling by scuba#0001"
+})
+wait(3)
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "done loading"
