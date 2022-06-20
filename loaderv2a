@@ -41,6 +41,7 @@ else
             Title = "verfication",
             Text = "success"
         })
+	wait(10)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/sideloader'))()
     end
 end
