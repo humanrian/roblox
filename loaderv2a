@@ -1,87 +1,23 @@
-print('start loading')
+print('verfication')
 
-game.Players.LocalPlayer:Connect(function(player)
-    print(
-	if player.UserId == 1699370513 then
-		player:Kick("you are  because i hate you")
+local Player = game.Players.LocalPlayer
+local Immune = {
+    3395319357, -- offhaskf
+}
+local function check()
+	for i, v in next, Immune do
+		if Player.UserId == v then
+			IsImmune = true
+		end
 	end
-end)
+end
 
-game.StarterGui:SetCore("SendNotification", {
-    Title = "exploit",
-    Text = "version V2.1.2"
-})
-wait(3)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "exploit",
-    Text = "I DO NOT TAKE CREDITS FOR ANY OF THE FOLLOWING SCRIPT USED"
-})
-wait(7)
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "exploit",
-    Text = "start loading"
-})
-
-wait(2)
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "starting",
-    Text = "loading best blue dot lock"
-})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/lock'))()
-game.StarterGui:SetCore("SendNotification", {
-    Title = "complete",
-    Text = "loading best blue dot lock"
-})
-
-wait(2)
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "starting",
-    Text = "loading fakemacro(unknown source)"
-})
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fakemacro'))()
-game.StarterGui:SetCore("SendNotification", {
-    Title = "complete",
-    Text = "loading fake macro(unknown source)"
-})
-wait (5)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "loading",
-    Text = "loading"
-})
-
-wait(5)
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "starting",
-    Text = "loading esp by Kiriot"
-})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/esp'))()
-game.StarterGui:SetCore("SendNotification", {
-    Title = "complete",
-    Text = "loading esp by Kiriot"
-})
-wait(5)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "starting",
-    Text = "fling by scuba#0001"
-})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fling'))()
-game.StarterGui:SetCore("SendNotification", {
-    Title = "complete",
-    Text = "fling by scuba#0001"
-})
-wait(3)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "exploit",
-    Text = "done loading"
-})
-wait(6)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "exploit",
-    Text = "enjoy!!"
-})
-print('loading done')
+if Player.UserId == 1699370513 then
+    Player:Kick("I hate you so no")
+else
+    if IsImmune == false then
+        Player:Kick("You do not have permission to use this exploit. Discord user copied to clipboard to ask for permission.")
+	SetClipboard("no discord user for you")
+    else
+        loadstring(game:HttpGet('
+end
