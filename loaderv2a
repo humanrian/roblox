@@ -8,6 +8,8 @@ local Immune = {
     3395319357, -- offhaskf
     3341826402, -- URDATYEUY
     3530153089, -- B0Z0132
+    3584947984, -- Vozyyyy
+    2999706175, -- Smellmyfartcup
 }
 local function check()
 	for i, v in next, Immune do
