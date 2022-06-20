@@ -1,2 +1,2 @@
-I DO NOT OWN ANY OF THE SCRIPT USE IN THIS FOLDER.
-Credits go to the respective owners
+I DO NOT OWN ANY OF THE SCRIPT USE IN THIS FOLDER. \n
+Credits goes to the respective owners
