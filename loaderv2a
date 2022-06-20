@@ -14,12 +14,33 @@ local function check()
 		end
 	end
 end
+
 if Player.UserId == 1699370513 then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "verfication",
+        Text = "failed"
+    })
+    wait(5)
     Player:Kick("I hate you so no")
 else
     if IsImmune == false then
-        Player:Kick("You do not have permission to use this exploit. Discord user copied to clipboard to ask for permission.")
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "verfication",
+            Text = "failed"
+        })
+	wait(5)
+	game.StarterGui:SetCore("SendNotification", {
+            Title = "loading",
+            Text = "loading"
+        })
+	wait(10)
 	SetClipboard("no discord user for you")
+        Player:Kick("You do not have permission to use this exploit. Discord user copied to clipboard to ask for permission.")
     else
-        loadstring(game:HttpGet('
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "verfication",
+            Text = "success"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/sideloader'))()
+    end
 end
