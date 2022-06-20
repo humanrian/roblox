@@ -63,7 +63,7 @@ game.StarterGui:SetCore("SendNotification", {
     Text="fling by scuba#0001"
 })
 loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fling'))()
-game.StarterGui:SetCore("SendNotification'' {
+game.StarterGui:SetCore("SendNotification", {
     Title="complete",
     Text="fling by scuba#0001"
 })
