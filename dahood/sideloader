@@ -75,4 +75,3 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
     Text = "enjoy!!"
 })
-print('loading done')
