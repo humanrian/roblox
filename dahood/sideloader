@@ -65,6 +65,16 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "complete",
     Text = "fling by scuba#0001"
 })
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "starting",
+    Text = "fly by lucifear"
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/humanrian/roblox/main/dahood/fly'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "complete",
+    Text = "fly by lucifear"
+})
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
     Title = "exploit",
