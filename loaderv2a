@@ -1,5 +1,8 @@
-print('verfication')
-
+game.StarterGui:SetCore("SendNotification", {
+    Title = "verification in progress",
+    Text = "please wait"
+})
+wait(20)
 local Player = game.Players.LocalPlayer
 local Immune = {
     3395319357, -- offhaskf
@@ -11,7 +14,6 @@ local function check()
 		end
 	end
 end
-
 if Player.UserId == 1699370513 then
     Player:Kick("I hate you so no")
 else
