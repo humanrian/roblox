@@ -11,6 +11,7 @@ local Immune = {
     3584947984, -- Vozyyyy
     2999706175, -- Smellmyfartcup
     1369611699, -- Collection1246
+    2050630207, -- milkmanlikes
 }
 local function check()
 	for i, v in next, Immune do
