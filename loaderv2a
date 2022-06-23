@@ -1,0 +1,2 @@
+local Player = game.Players.LocalPlayer
+Player:Kick("exploit offline until it is transfered to another account")
