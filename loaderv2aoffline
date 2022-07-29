@@ -3,6 +3,7 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "please wait"
 })
 wait(20)
+local IsImmune == false
 local Player = game.Players.LocalPlayer
 local Immune = {
     3395319357, -- offhaskf
@@ -20,6 +21,8 @@ local function check()
 		end
 	end
 end
+
+check()
 
 if Player.UserId == 1699370513 then
     game.StarterGui:SetCore("SendNotification", {
